@@ -9,11 +9,11 @@
 }
 
 :root {
-    --bg-color:#2a2a2a;
+    --bg-color:#137576;
     --second-bg-color:#202020;
     --text-color:#fff;
     --second-color: #ccc;
-    --main-color: #ff4d05;
+    --main-color: #e5cda7;
     --big-font :3.8rem;
     --h2-font: 3rem;
     --p-font: 1.1rem
@@ -274,14 +274,13 @@ header.sticky {
 
 .box:hover {
     transform: translateY(-8px);
-    border: 1px solid #9a53c4;
     box-shadow: 0 3px 5px var(--main-color);
     cursor: pointer;
 }
 
 
 .contact {
-    background: var(--second-bg-color);
+    background: var(--bg-color);
     display: grid;
     grid-template-columns: repeat(2,  1fr);
     align-items: center;
@@ -349,7 +348,7 @@ header.sticky {
 form textarea{
     width: 100%;
     padding: 14px;
-    background: var(--bg-color);
+    background: var(--second-bg-color);
     color: var(--text-color);
     border: none;
     outline: none;
