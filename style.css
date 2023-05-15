@@ -274,6 +274,8 @@ header.sticky {
 
 .box:hover {
     transform: translateY(-8px);
+    border: 1px solid #9a53c4;
+    box-shadow: 0 3px 5px var(--main-color);
     cursor: pointer;
 }
 
